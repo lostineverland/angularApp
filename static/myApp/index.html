@@ -1,0 +1,10 @@
+<div ng-app="myApp" ng-controller="myCtrl">
+    <h1>Learning Angular</h1>
+    <input ng-model="name" type="text"/>
+    <p>{{name}}</p>
+    <p>{{lastName}}</p>
+    <button ng-click="changeName()">Click</button>
+    <ul>
+        <li ng-repeat="listItem in listItems">{{ listItem }}</li>
+    </ul>
+</div>

@@ -11,7 +11,7 @@ Missing how to plug angular to node.
 At the head of the repository run:
 
     > npm install
-    > node_modules/.bin/bower install
+    > bower install
 
 # Run Server
 
